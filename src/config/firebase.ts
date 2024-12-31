@@ -1,0 +1,1 @@
+// Remove this file since we're using Supabase instead of Firebase

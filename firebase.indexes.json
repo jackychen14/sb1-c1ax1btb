@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "toys",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "toys",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "owner.id", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ]
+}
